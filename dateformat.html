@@ -1,0 +1,15 @@
+<htlml>
+    <head>
+        <title>current date format</title>
+    </head>
+    <body>
+        <script>
+            var today = new Date();
+            var month = today.getMonth()+1;
+            var year = today.getFullYear();
+            var day = today.getDate();
+            document.write(month+"-"+day+"-"+year+","+month+"/"+day+"/"+year+"or"+day+"-"+month+"-"+year+","+day+"/"+month+"/"+year);
+
+        </script>
+    </body>
+</htlml>
